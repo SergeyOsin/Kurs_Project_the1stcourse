@@ -7,8 +7,9 @@
 using namespace std;
 const int NU = system("color F0");
 int main() {
-	Figure* s[1];
+	Figure* s[2];
 	s[0] = new rectangle(350, 150, 90, RGB(0,0,0), RGB(255, 255, 255));
+	s[1] = new Triangle(250, 100, 50, RGB(100, 100, 100), RGB(0, 100, 200));
 	Queue deq;
 	cout << "Figures: \n ";
 	try {
